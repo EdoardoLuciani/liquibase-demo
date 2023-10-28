@@ -12,7 +12,7 @@
     <changeSet id="1"  author="edoardo">
         <createTable  tableName="department">
             <column name="id"  type="int" autoIncrement="true">
-                <constraints  primaryKey="true"  nullable="false" validateNullable="true"/>
+                <constraints  primaryKey="true"  nullable="false"/>
             </column>
             <column  name="name"  type="varchar(50)">
                 <constraints  nullable="false"/>
