@@ -10,7 +10,7 @@
             http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
 
 
-    <changeSet  id="1"  author="bob">
+    <changeSet id="1"  author="edoardo">
         <createTable  tableName="department">
             <column  name="id"  type="int">
                 <constraints  primaryKey="true"  nullable="false"/>
