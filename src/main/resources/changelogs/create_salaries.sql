@@ -1,5 +1,5 @@
 --liquibase formatted sql
---changeset author:edoardo id:3
+--changeset edoardo:3
 
 CREATE TABLE salary (
   `id` INTEGER PRIMARY KEY AUTOINCREMENT,
