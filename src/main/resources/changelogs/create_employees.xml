@@ -38,4 +38,9 @@
                     type="NUMERIC"/>
         </loadUpdateData>
     </changeSet>
+
+    <changeSet  id="3"  author="edoardo">
+        <tagDatabase  tag="v1"/>
+    </changeSet>
+
 </databaseChangeLog>
