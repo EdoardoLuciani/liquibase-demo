@@ -17,6 +17,9 @@
             <column  name="name"  type="varchar(50)">
                 <constraints  nullable="false"/>
             </column>
+            <column  name="salary"  type="int">
+                <constraints  nullable="false"/>
+            </column>
             <column  name="departmentId"  type="int">
                 <constraints referencedTableName="department" referencedColumnNames="id" foreignKeyName="fk_department_employee"/>
             </column>
@@ -31,6 +34,8 @@
                     type="NUMERIC"/>
             <column name="name"
                     type="STRING"/>
+            <column name="salary"
+                    type="NUMERIC"/>
         </loadUpdateData>
     </changeSet>
 </databaseChangeLog>
