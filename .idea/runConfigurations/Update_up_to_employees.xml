@@ -12,7 +12,7 @@
           <option name="goals">
             <list>
               <option value="liquibase:update" />
-              <option value="-Dliquibase.updateTag=1" />
+              <option value="-Dliquibase.toTag=v1" />
             </list>
           </option>
           <option name="pomFileName" />
